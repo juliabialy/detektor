@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def detect_danger_zone(frame, danger_line):
-    # Konwertuj obraz do odcieni szarości
+    # odcienie
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
     # Rozmyj obraz, aby zredukować szum i poprawić detekcję konturów
